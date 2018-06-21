@@ -1,0 +1,140 @@
+SystemID N64
+0	w	h	1	RDRAM	id
+2	w	h	1	RDRAM	[UNKNOWN] 0x2
+4	b	u	1	RDRAM	rounds_fired_left
+5	b	u	1	RDRAM	rounds_fired_right
+6	b	h	1	RDRAM	head_model
+7	b	u	1	RDRAM	current_action
+8	w	h	1	RDRAM	[UNKNOWN] 0x8
+A	b	u	1	RDRAM	shots_near
+B	b	u	1	RDRAM	shots_hit
+C	b	u	1	RDRAM	alpha
+D	b	h	1	RDRAM	[UNKNOWN] 0xD
+E	b	h	1	RDRAM	[UNKNOWN] 0xE
+F	b	h	1	RDRAM	body_model
+10	b	u	1	RDRAM	belligerency
+11	b	h	1	RDRAM	[UNKNOWN] 0x11
+12	w	h	1	RDRAM	[UNKNOWN] 0x12
+14	d	h	1	RDRAM	[UNKNOWN] 0x14
+18	d	h	1	RDRAM	position_data_pointer
+1C	d	h	1	RDRAM	model_data_pointer
+20	d	h	1	RDRAM	[UNKNOWN] 0x20
+24	d	f	1	RDRAM	collision_radius
+28	d	h	1	RDRAM	[UNKNOWN] 0x28
+2C	d	u	1	RDRAM	fadeout_timer
+2C	d	f	1	RDRAM	bond_position.x
+30	d	f	1	RDRAM	bond_position.y
+34	d	f	1	RDRAM	bond_position.z
+38	d	h	1	RDRAM	[UNKNOWN] 0x38
+3C	d	f	1	RDRAM	path_target_position.x
+40	d	f	1	RDRAM	path_target_position.y
+44	d	f	1	RDRAM	path_target_position.z
+48	d	h	1	RDRAM	[UNKNOWN] 0x48
+4C	d	h	1	RDRAM	[UNKNOWN] 0x4C
+50	d	h	1	RDRAM	[UNKNOWN] 0x50
+54	d	h	1	RDRAM	[UNKNOWN] 0x54
+58	d	h	1	RDRAM	[UNKNOWN] 0x58
+5C	d	h	1	RDRAM	[UNKNOWN] 0x5C
+60	d	f	1	RDRAM	target_position.x
+64	d	f	1	RDRAM	target_position.y
+68	d	f	1	RDRAM	target_position.z
+6C	d	h	1	RDRAM	[UNKNOWN] 0x6C
+70	d	f	1	RDRAM	path_segment_coverage
+74	d	f	1	RDRAM	path_segment_length
+78	d	h	1	RDRAM	[UNKNOWN] 0x78
+7C	d	h	1	RDRAM	[UNKNOWN] 0x7C
+80	d	h	1	RDRAM	[UNKNOWN] 0x80
+84	d	h	1	RDRAM	[UNKNOWN] 0x84
+88	d	h	1	RDRAM	[UNKNOWN] 0x88
+8C	d	h	1	RDRAM	[UNKNOWN] 0x8C
+90	d	h	1	RDRAM	[UNKNOWN] 0x90
+94	d	f	1	RDRAM	segment_coverage
+98	d	f	1	RDRAM	segment_length
+9C	d	h	1	RDRAM	[UNKNOWN] 0x9C
+A0	d	h	1	RDRAM	[UNKNOWN] 0xA0
+A4	d	h	1	RDRAM	[UNKNOWN] 0xA4
+A8	d	h	1	RDRAM	[UNKNOWN] 0xA8
+AC	d	f	1	RDRAM	clipping_height
+B0	d	h	1	RDRAM	[UNKNOWN] 0xB0
+B4	d	h	1	RDRAM	[UNKNOWN] 0xB4
+B8	d	h	1	RDRAM	[UNKNOWN] 0xB8
+BC	d	f	1	RDRAM	position.x
+C0	d	f	1	RDRAM	position.y
+C4	d	f	1	RDRAM	position.z
+C8	d	h	1	RDRAM	[UNKNOWN] 0xC8
+CC	d	h	1	RDRAM	[UNKNOWN] 0xCC
+D0	d	f	1	RDRAM	reaction_time
+D4	d	u	1	RDRAM	last_bond_detection_time
+D8	d	h	1	RDRAM	[UNKNOWN] 0xD8
+DC	d	h	1	RDRAM	[UNKNOWN] 0xDC
+E0	d	h	1	RDRAM	[UNKNOWN] 0xE0
+E4	d	h	1	RDRAM	[UNKNOWN] 0xE4
+E8	d	h	1	RDRAM	[UNKNOWN] 0xE8
+EC	d	f	1	RDRAM	hearing_ability
+F0	d	h	1	RDRAM	[UNKNOWN] 0xF0
+F4	d	h	1	RDRAM	[UNKNOWN] 0xF4
+F8	d	h	1	RDRAM	[UNKNOWN] 0xF8
+FC	d	f	1	RDRAM	damage_received
+100	d	f	1	RDRAM	health
+104	d	h	1	RDRAM	action_block_pointer
+108	w	h	1	RDRAM	action_block_offset
+10A	w	h	1	RDRAM	action_block_return
+10C	b	h	1	RDRAM	user_byte_1
+10D	b	h	1	RDRAM	user_byte_2
+10E	b	h	1	RDRAM	[UNKNOWN] 0x10E
+10F	b	h	1	RDRAM	random_value
+110	b	u	1	RDRAM	timer
+111	b	h	1	RDRAM	[UNKNOWN] 0x111
+112	w	h	1	RDRAM	[UNKNOWN] 0x112
+114	w	h	1	RDRAM	2328_preset
+116	w	h	1	RDRAM	[UNKNOWN] 0x116
+118	d	h	1	RDRAM	[UNKNOWN] 0x118
+11C	d	h	1	RDRAM	[UNKNOWN] 0x11C
+120	d	h	1	RDRAM	[UNKNOWN] 0x120
+124	d	h	1	RDRAM	[UNKNOWN] 0x124
+128	d	h	1	RDRAM	[UNKNOWN] 0x128
+12C	d	h	1	RDRAM	[UNKNOWN] 0x12C
+130	d	h	1	RDRAM	[UNKNOWN] 0x130
+134	d	h	1	RDRAM	[UNKNOWN] 0x134
+138	d	h	1	RDRAM	[UNKNOWN] 0x138
+13C	d	h	1	RDRAM	[UNKNOWN] 0x13C
+140	d	h	1	RDRAM	[UNKNOWN] 0x140
+144	d	h	1	RDRAM	[UNKNOWN] 0x144
+148	d	h	1	RDRAM	[UNKNOWN] 0x148
+14C	d	h	1	RDRAM	[UNKNOWN] 0x14C
+150	d	h	1	RDRAM	[UNKNOWN] 0x150
+154	d	h	1	RDRAM	[UNKNOWN] 0x154
+158	d	h	1	RDRAM	[UNKNOWN] 0x158
+15C	d	h	1	RDRAM	[UNKNOWN] 0x15C
+160	d	h	1	RDRAM	[UNKNOWN] 0x160
+164	d	h	1	RDRAM	[UNKNOWN] 0x164
+168	d	h	1	RDRAM	[UNKNOWN] 0x168
+16C	d	h	1	RDRAM	[UNKNOWN] 0x16C
+170	d	h	1	RDRAM	[UNKNOWN] 0x170
+174	d	h	1	RDRAM	[UNKNOWN] 0x174
+178	d	h	1	RDRAM	[UNKNOWN] 0x178
+17C	d	h	1	RDRAM	[UNKNOWN] 0x17C
+180	d	h	1	RDRAM	[UNKNOWN] 0x180
+184	d	h	1	RDRAM	[UNKNOWN] 0x184
+188	d	h	1	RDRAM	[UNKNOWN] 0x188
+18C	d	h	1	RDRAM	[UNKNOWN] 0x18C
+190	d	h	1	RDRAM	[UNKNOWN] 0x190
+194	d	h	1	RDRAM	[UNKNOWN] 0x194
+198	d	h	1	RDRAM	[UNKNOWN] 0x198
+19C	d	h	1	RDRAM	[UNKNOWN] 0x19C
+1A0	d	h	1	RDRAM	[UNKNOWN] 0x1A0
+1A4	d	h	1	RDRAM	[UNKNOWN] 0x1A4
+1A8	d	h	1	RDRAM	[UNKNOWN] 0x1A8
+1AC	d	h	1	RDRAM	[UNKNOWN] 0x1AC
+1B0	d	h	1	RDRAM	[UNKNOWN] 0x1B0
+1B4	d	h	1	RDRAM	[UNKNOWN] 0x1B4
+1B8	d	h	1	RDRAM	[UNKNOWN] 0x1B8
+1BC	d	h	1	RDRAM	[UNKNOWN] 0x1BC
+1C0	d	h	1	RDRAM	[UNKNOWN] 0x1C0
+1C4	d	h	1	RDRAM	[UNKNOWN] 0x1C4
+1C8	d	h	1	RDRAM	[UNKNOWN] 0x1C8
+1CC	d	h	1	RDRAM	[UNKNOWN] 0x1CC
+1D0	d	h	1	RDRAM	[UNKNOWN] 0x1D0
+1D4	d	h	1	RDRAM	[UNKNOWN] 0x1D4
+1D8	d	h	1	RDRAM	[UNKNOWN] 0x1D8
+
