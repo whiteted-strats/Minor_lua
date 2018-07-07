@@ -101,7 +101,8 @@ end
 
 function main(baseAddr,fillGaps)
     -- Initialise the follower for filling gaps
-    prevEndOffset = baseAddr
+    -- Was bugged as baseAddr
+    prevEndOffset = 0
 
     -- Initialise our outputStack with the SystemID
     outputStack = newStack()
