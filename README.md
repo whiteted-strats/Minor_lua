@@ -1,2 +1,2 @@
 # Minor_lua
-Some more minor lua scripts for GE
+Some more minor lua scripts for GE .. & PD
